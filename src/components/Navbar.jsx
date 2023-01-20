@@ -12,16 +12,13 @@ class Navbar extends React.Component {
             <a>Home</a>
           </li>
           <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Resume</a>
+            <a>Acerca de</a>
           </li>
           <li>
             <a>Portfolio</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a>Contacto</a>
           </li>
         </ul>
       </nav>

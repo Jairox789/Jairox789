@@ -10,26 +10,31 @@ nav {
   transition: all 0.5s;
   color: #ffffff;
 }
+
 .nav-scrolled {
   background-color: #24252a;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
+
 nav .logo img {
   margin: 0 100px;
   width: 50px;
   height: 50px;
 }
+
 nav ul {
   padding: 0;
   list-style: none;
   float: right;
   margin: 0 20px 0 0;
 }
+
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
+
 nav ul li a {
   text-decoration: none;
   color: var(--tittle-letter);
@@ -38,11 +43,13 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
 }
-a:hover {
+
+.navbar a:hover {
   background: #1b9bff;
   transition: 0.5s;
   cursor: pointer;
 }
+
 .logo {
   width: 74px;
 }
