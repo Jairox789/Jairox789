@@ -1,0 +1,22 @@
+.personal-info-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.personal-info-container img {
+  margin-top: 90px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.personal-info-container .info-personal {
+  margin-top: 90px;
+  width: 540px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

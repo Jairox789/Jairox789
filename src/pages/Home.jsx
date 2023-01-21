@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Home.css";
-import profilePic from "../images/foto2.jpg";
 import photoGiHub from "../icons/github.png";
 import photoLinkeIn from "../icons/linkedin.png";
 
@@ -9,11 +8,15 @@ function Home() {
   return (
     <React.Fragment>
       <div className="Home__container">
-        <img className="photoProfile" src={profilePic} alt="profile" />
-        <h1>Jairo Ortega Vazquez</h1>
-        <span>@jairox789</span>
-        <h2>Estudiante y<h2 className="developer">desarrollador</h2></h2>
-        <Link className="buttonSlide" to="/acercade">Acerca de</Link>
+        <div className="info">
+          <h1 className="name">Jairo</h1>
+          <h1 className="lastName">Ortega</h1>
+          <span className="developer">@jairox789</span>
+          <h2>Estudiante y desarrollador</h2>
+          <Link className="buttonSlide" to="/acercade">
+            Acerca de
+          </Link>
+        </div>
         <div className="Social__container">
           <a href="https://github.com/Jairox789">
             <img src={photoGiHub} alt="github" />
