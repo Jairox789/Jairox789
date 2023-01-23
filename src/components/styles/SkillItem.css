@@ -1,12 +1,42 @@
 .skill-item-container {
+  margin-top: 36px;
   width: 234px;
-  height: 276px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(46, 46, 245);
+  font-weight: bold;
+  font-size: 16px;
+
+  border-radius: 6px;
+  height: 100%;
+  --c: #00132c;
+  --b: 3px;
+  --g: 5px;
+
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%, var(--c) 0;
+  background:
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) var(--_i, 200%) 0 /200% var(--_i, var(--b)) no-repeat,
+    conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0 var(--_i, 200%)/var(--_i, var(--b)) 200% no-repeat;
+  transition: .3s, background-position .3s .3s;
+}
+
+.skill-item-container:hover {
+  --_i: 100%;
+  transition: .3s, background-size .3s .3s;
+}
+
+.content {
+  color: rgb(255, 255, 255);
+  width: 100%;
   border: 2px solid black;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-image: linear-gradient(160deg, #454545 0%, #2e2e2e 100%);
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .skill-img {
@@ -15,12 +45,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(73, 255, 73);
+  background: url("https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .skill-img img {
   width: 120px;
   position: relative;
+  border-radius: 15%;
   top: 32px;
 }
 
