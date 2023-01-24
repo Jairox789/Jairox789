@@ -32,8 +32,8 @@ const EducationItems = props => {
                 estado={estadoModal1}
                 cambiarEstado={cambiarEstadoModal1}
                 Escuela={props.name}
-                Images={props.images}
             >
+                <h3>Diplomas y/o certificados</h3>
                 <div className="Diplomas">
                     {props.images.map(image => (
                         <img src={image} alt="diploma" />

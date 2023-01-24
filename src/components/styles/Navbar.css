@@ -18,8 +18,6 @@ nav {
 
 nav .logo img {
   margin: 0 100px;
-  width: 50px;
-  height: 50px;
 }
 
 nav ul {
@@ -52,4 +50,5 @@ nav ul li a {
 
 .logo {
   width: 74px;
+  margin-top: 14px;
 }
