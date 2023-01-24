@@ -8,37 +8,37 @@ class Skills extends Component {
       {
         image: "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
         nameSkill: "HTML",
-        nivel: "basic"
+        nivel: "Básico"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         nameSkill: "JavaScript",
-        nivel: "basic"
+        nivel: "Básico"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
         nameSkill: "CSS",
-        nivel: "basic"
+        nivel: "Básico"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/875/875209.png",
         nameSkill: "React",
-        nivel: "basic"
+        nivel: "Básico"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/6132/6132221.png",
         nameSkill: "C#",
-        nivel: "basic"
+        nivel: "Intermedio"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/2772/2772128.png",
         nameSkill: "Microsoft SQL Server",
-        nivel: "basic"
+        nivel: "Básico"
       },
       {
         image: "https://cdn-icons-png.flaticon.com/512/3488/3488435.png",
         nameSkill: "Git y GitHub",
-        nivel: "basic"
+        nivel: "Básico"
       },
     ]
   };
