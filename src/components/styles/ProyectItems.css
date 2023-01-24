@@ -1,103 +1,114 @@
 .proyects-container {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    border: 2px solid #424242;
-    border-radius: 6px;
-    background: #fdfdfd;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  border: 2px solid #424242;
+  border-radius: 6px;
+  background: #fdfdfd;
 
-    font-size: 16px;
-    height: 100%;
-    --c: #00132c;
-    --b: 3px;
-    --g: 5px;
+  font-size: 16px;
+  height: 100%;
+  --c: #00132c;
+  --b: 3px;
+  --g: 5px;
 
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%, var(--c) 0;
-    background:
-        conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) var(--_i, 200%) 0 /200% var(--_i, var(--b)) no-repeat,
-        conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0 var(--_i, 200%)/var(--_i, var(--b)) 200% no-repeat;
-    transition: .3s, background-position .3s .3s;
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%, var(--c) 0;
+  background: conic-gradient(
+        from 180deg at top var(--b) right var(--b),
+        var(--_g)
+      )
+      var(--_i, 200%) 0 /200% var(--_i, var(--b)) no-repeat,
+    conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0
+      var(--_i, 200%) / var(--_i, var(--b)) 200% no-repeat;
+  transition: 0.3s, background-position 0.3s 0.3s;
 }
 
 .proyects-container:hover {
-    --_i: 100%;
-    transition: .3s, background-size .3s .3s;
+  --_i: 100%;
+  transition: 0.3s, background-size 0.3s 0.3s;
 }
 
 .image-proyect {
-    width: 100%;
-    height: 200px;
+  width: 100%;
+  height: 200px;
 }
 
 .image-proyect img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .info-proyect {
-    text-align: justify;
-    width: 100%;
-    height: 300px;
+  text-align: justify;
+  width: 100%;
+  height: 300px;
 }
 
 .info-proyect ul {
-    list-style: none;
+  list-style: none;
 }
 
 .info-proyect h3 {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .tecs-img {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .tecs-img img {
-    width: 60px;
-    border-radius: 8px;
+  width: 60px;
+  border-radius: 8px;
 }
 
 .show-proyect {
-    width: 100%;
-    height: 100px;
-    background: #1fa7cc;
+  width: 100%;
+  height: 100px;
+  background: #1fa7cc;
 }
 
 .show-proyect {
-    display: flex;
-    text-align: center;
-    font-size: 20px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
 }
 
 .show-proyect button {
-    font-size: 20px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    border: 0px;
-    color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  color: white;
 }
 
 .btn-modal:before {
-    top: 40%;
+  top: 40%;
 }
 
 .enlaces {
-    border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .enlaces img {
-    width: 60px;
-    border-radius: 8px;
+  width: 60px;
+  border-radius: 8px;
 }
 
 .enlaces li {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+/*Laptop*/
+@media (max-width: 1366px) {
+  .proyects-container {
+    margin-top: 0;
+  }
 }
