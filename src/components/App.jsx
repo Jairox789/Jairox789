@@ -9,10 +9,10 @@ import { Contact } from "./Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Routes>
-          <Route path="/Jairox789" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/acercade" element={<AcercaDe />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/contact" element={<Contact />} />
