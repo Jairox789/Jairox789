@@ -9,7 +9,7 @@ import { Contact } from "./Contact";
 
 function App() {
   return (
-    <HashRouter >
+    <HashRouter basename='/'>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

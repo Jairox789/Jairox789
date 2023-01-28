@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             <Link to="/portafolio">Portafolio</Link>
           </li>
           <li>
-            <Link to="contact">Contacto</Link>
+            <Link to="/contact">Contacto</Link>
           </li>
         </ul>
       </nav>
