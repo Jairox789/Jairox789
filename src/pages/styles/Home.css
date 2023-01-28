@@ -4,7 +4,7 @@ body {
 
 .Home__container {
   position: absolute;
-  background: url("/src/images/PC.jpg");
+  background: url("https://i.ibb.co/pK2Jwck/PC.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;

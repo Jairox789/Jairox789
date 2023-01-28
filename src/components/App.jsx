@@ -5,11 +5,11 @@ import { NotFound } from "../pages/NotFound";
 import { Home } from "../pages/Home";
 import { AcercaDe } from "../pages/AcercaDe";
 import { Portafolio } from "../pages/Portafolio";
-import { Contact } from "./Contact";
+import { Contact } from "../pages/Contact";
 
 function App() {
   return (
-    <HashRouter >
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
-    </HashRouter >
+    </HashRouter>
   );
 }
 

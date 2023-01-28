@@ -15,7 +15,13 @@ function PersonalInfo() {
           de aprender, por eso quiero poner en práctica todos los conocimientos
           adquiridos, además de que me encuentro buscando aportar valor.
         </p>
-        <a className="btn download" download="CV Jairo Ortega" href="../downloads/CV.pdf">Descargar CV</a>
+        <a
+          className="btn download"
+          download="CV Jairo Ortega"
+          href="https://drive.google.com/uc?export=download&id=1T_FzwCTjtdyGKrpWLWwlQfFCQ2qvKdU3"
+        >
+          Descargar CV
+        </a>
       </div>
     </div>
   );
