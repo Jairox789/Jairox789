@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer } from "./Footer";
+import { Footer } from "../components/Footer";
 import "./styles/Contact.css";
 
 class Contact extends React.Component {
