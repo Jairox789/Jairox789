@@ -23,6 +23,16 @@ class Proyects extends Component {
                 images: ["https://i.ibb.co/BVpHWHb/Web-portfolio.jpg"],
                 github: "https://github.com/Jairox789/Jairox789",
                 web: "https://jairortega.com/"
+            },
+
+            {
+                image: "https://i.ibb.co/9qWPTrX/todo.jpg",
+                name: "Lista de tareas (To-Do List)",
+                tecs: ["https://cdn-icons-png.flaticon.com/512/5968/5968267.png", "https://cdn-icons-png.flaticon.com/512/5968/5968242.png", "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", "https://cdn-icons-png.flaticon.com/512/919/919851.png"],
+                features: ["Almacenamiento local", "Librería/Framework React"],
+                images: ["https://i.ibb.co/9qWPTrX/todo.jpg", "https://i.ibb.co/fxNhnTz/todo-2.jpg", "https://i.ibb.co/18cf2Fg/todo-3.jpg"],
+                github: "https://github.com/Jairox789/To-Do-Machine",
+                web: "https://jairox789.github.io/To-Do-Machine/"
             }
         ]
 
