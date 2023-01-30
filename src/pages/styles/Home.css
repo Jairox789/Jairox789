@@ -111,19 +111,65 @@ h2 {
 
 /* Responsive 1366 laptop */
 @media (max-width: 1366px) {
-  h1 {
+  .Home__container h1 {
     font-size: 46px;
   }
 
-  span {
+  .Home__container span {
     font-size: 26px;
   }
 
-  h2 {
+  .Home__container h2 {
     font-size: 35px;
   }
-  .buttonSlide {
+
+  .Home__container .buttonSlide {
     margin-top: 15px;
     font-size: 20px;
   }
+}
+
+@media (max-width: 952px) {
+  .info {
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    margin-left: 50px;
+  }
+
+  .Home__container h1:nth-child(1) {
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .Home__container h1:nth-child(2) {
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .Home__container span {
+    font-size: 20px;
+  }
+
+  .Home__container h2 {
+    font-size: 30px;
+  }
+
+  .Home__container {
+    background: url("https://images.unsplash.com/photo-1618388607276-6dfb062c75a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+
 }

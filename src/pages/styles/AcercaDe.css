@@ -2,3 +2,28 @@
   background: #f2f4f5;
   color: rgb(0, 0, 0);
 }
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+  .personal-info-container .info-personal {
+    margin-top: 0;
+    width: 72vw;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {
+  .personal-info-container img {
+    width: 200px;
+    height: 200px;
+  }
+}

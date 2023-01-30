@@ -5,7 +5,11 @@ const Modal = ({ children, estado, cambiarEstado, Escuela, Proyecto }) => {
     return (
         <>
             {estado &&
-                <div className='Overlay'>
+                <dialog className='Overlay'>
+                    <div
+                        className='Overlay-Container'
+                        onClick={() => cambiarEstado(false)}
+                    ></div>
                     <div className='Contenedor-Modal'>
                         <div className='Encabezado'>
                             <h1>{Escuela}{Proyecto}</h1>
@@ -20,7 +24,7 @@ const Modal = ({ children, estado, cambiarEstado, Escuela, Proyecto }) => {
                         </button>
                         {children}
                     </div>
-                </div>
+                </dialog>
             }
         </>
     );

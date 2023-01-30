@@ -12,7 +12,7 @@ class Proyects extends Component {
                 features: ["Registro de empleado con cuentas", "Registro de ventas de empleados y repartidor", "Registro de productos con código de barra", "Resumen de ventas por día/mes/año"],
                 images: ["https://i.ibb.co/PQX5S0N/work1.jpg", "https://i.ibb.co/W3kv5Fb/work1-1.jpg", "https://i.ibb.co/PmnYvKM/work1-2.jpg", "https://i.ibb.co/NTT3YHb/work1-3.jpg", "https://i.ibb.co/yRhM0jN/work1-4.jpg", "https://i.ibb.co/q5Hz7Xn/work1-5.jpg", "https://i.ibb.co/1YVmRLb/work1-6.jpg"],
                 github: "https://github.com/Jairox789",
-                web: ""
+                web: "https://jairortega.com/#/portafolio"
             },
 
             {
@@ -22,7 +22,7 @@ class Proyects extends Component {
                 features: ["Interfaz responsiva", "Librería/Framework React"],
                 images: ["https://i.ibb.co/BVpHWHb/Web-portfolio.jpg"],
                 github: "https://github.com/Jairox789/Jairox789",
-                web: "https://www.google.com/"
+                web: "https://jairortega.com/"
             }
         ]
 
