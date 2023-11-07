@@ -9,16 +9,16 @@ function PersonalInfo() {
       <div className="info-personal">
         <h1>Acerca de mí</h1>
         <p>
-          Soy un apasionado de la tecnología y el desarrollo 💻🖤, actualmente
-          estudiante de octavo semestre de la carrera de Ingeniería en Sistemas
-          Computacionales y desde que elegí mi carrera me comprometí nunca dejar
-          de aprender, por eso quiero poner en práctica todos los conocimientos
-          adquiridos, además de que me encuentro buscando aportar valor.
+          Soy un apasionado de la tecnología y el desarrollo 💻🖤. Mi elección
+          de la carrera de Ingeniería en Sistemas Computacionales refleja mi
+          dedicación a la constante adquisición de habilidades. Estoy
+          entusiasmado por aplicar mis conocimientos y contribuir con soluciones
+          innovadoras en el mundo del desarrollo y la tecnología.
         </p>
         <a
           className="btn download"
           download="CV Jairo Ortega"
-          href="https://drive.google.com/uc?export=download&id=1T_FzwCTjtdyGKrpWLWwlQfFCQ2qvKdU3"
+          href="https://drive.google.com/u/0/uc?id=1khZdQXaL15X4eSP87yKYPH1VqlNjMliX&export=download"
         >
           Descargar CV
         </a>

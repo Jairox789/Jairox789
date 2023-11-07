@@ -12,7 +12,7 @@ function Home() {
           <h1 className="name">Jairo</h1>
           <h1 className="lastName">Ortega</h1>
           <span className="developer">@jairox789</span>
-          <h2>Estudiante y desarrollador</h2>
+          <h2>Desarrollador</h2>
           <Link className="buttonSlide" to="/acercade">
             Acerca de
           </Link>
