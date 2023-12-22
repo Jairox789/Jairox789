@@ -32,22 +32,33 @@ class Proyects extends Component {
       },
 
       {
-        image: "https://i.ibb.co/9qWPTrX/todo.jpg",
-        name: "Lista de tareas (To-Do List)",
+        image: "https://i.ibb.co/5THRdvW/demo1.png",
+        name: "Ecoface (publicador autómatico)",
         tecs: [
           "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
           "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
           "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
           "https://cdn-icons-png.flaticon.com/512/919/919851.png",
+          "https://cdn-icons-png.flaticon.com/512/919/919830.png",
+          "https://cdn-icons-png.flaticon.com/512/919/919836.png",
         ],
-        features: ["Almacenamiento local", "Librería/Framework React"],
+        features: [
+          "Uso de APIs de Meta (Facebook-Instagram)",
+          "Librería/Framework React",
+          "Framework/PHP Flight",
+          "Añade una marca de agua de la empresa a cada imagen para publicarlas",
+          "Realiza publicaciones programadas con mensajes del día",
+        ],
         images: [
-          "https://i.ibb.co/9qWPTrX/todo.jpg",
-          "https://i.ibb.co/fxNhnTz/todo-2.jpg",
-          "https://i.ibb.co/18cf2Fg/todo-3.jpg",
+          "https://i.ibb.co/5THRdvW/demo1.png",
+          "https://i.ibb.co/4MDbgr5/demo2.png",
+          "https://i.ibb.co/7Q7tpL6/demo3.png",
+          "https://i.ibb.co/JtHCS2t/demo4.png",
+          "https://i.ibb.co/1RPN3KP/demo5.png",
+          "https://i.ibb.co/R2VHKqW/demo6.png",
         ],
-        github: "https://github.com/Jairox789/To-Do-Machine",
-        web: "https://jairox789.github.io/To-Do-Machine/",
+        github: "https://github.com/Jairox789/",
+        web: "https://github.com/Jairox789/",
       },
 
       {
